@@ -1,0 +1,512 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Gochi+Hand&family=Nosifer&display=swap');
+
+
+
+* {
+    padding   : 0;
+    margin    : 0;
+    box-sizing: border-box;
+}
+
+.custom-cursor {
+    cursor: url('custom-cursor.png'), auto;
+}
+
+body {
+    background-color: rgb(54, 54, 54);
+    height          : 100vh;
+    position        : relative;
+    margin          : 0 auto;
+    width           : 65vw;
+
+}
+
+.header1 {
+    background-color: rgb(255, 254, 252);
+    display         : flex;
+    justify-content : space-around;
+    width           : 65vw;
+    height          : 48px;
+    margin          : 0 auto;
+
+    padding: 2rem;
+}
+
+header img:nth-of-type(1) {
+    width         : 98px;
+    margin-left   : -14px;
+    margin-top    : -4px;
+    padding-bottom: 4px;
+
+
+}
+
+.header-content-listing {
+    display        : flex;
+    width          : 400px;
+    justify-content: end;
+    align-items    : center;
+    font-size      : 8px;
+    text-transform : uppercase;
+    column-gap     : 22px;
+    font-family    : "Karla", sans-serif;
+    padding        : 0.5rem;
+    margin-right   : -4px;
+    z-index        : 100;
+}
+
+.header1 div p:nth-of-type(4) {
+    border        : 1.4px solid rgba(0, 0, 0, 0.605);
+    font-weight   : 800;
+    padding-top   : 5px;
+    padding-bottom: 5px;
+    padding-right : 8px;
+    padding-left  : 8px;
+    width         : 80px;
+    text-align    : center;
+    font-weight   : 600;
+    z-index       : 100;
+}
+
+header div p:nth-of-type(3),
+header div p:nth-of-type(2),
+header div p:nth-of-type(1) {
+    color    : rgba(0, 0, 0, 0.605);
+    font-size: 9px;
+}
+
+/* BODY-ELEMENT-ON-THE-LEFT */
+
+#pattern-intro-left {
+    width   : 120px;
+    position: absolute;
+    top     : 440px;
+    left    : 0;
+}
+
+#upper-line {
+    width      : 10vw;
+    /* position: absolute; */
+    padding-top: 3px;
+    position   : relative;
+    top        : 220px;
+    left       : 150px;
+    border     : none;
+    height     : 3px;
+    background : linear-gradient(to left, purple, darkblue);
+
+}
+
+/* #upper-line::after {
+    display    : inline-block;
+    content    : "We are different";
+    font-family: "Karla", sans-serif;
+
+
+
+} */
+
+/* MAIN..BODY-SECTION--1 */
+
+.main1 {
+    background: linear-gradient(purple, hsl(256, 26%, 20%));
+    width     : 65vw;
+    height    : 65vh;
+    position  : relative;
+}
+
+
+/* BODY-ELEMENT-ON-THE-RIGHT */
+
+#pattern-intro-right {
+    position: absolute;
+    top     : 0;
+    right   : 0;
+    width   : 340px;
+    z-index : 1;
+
+}
+
+/* .....FAMILY-PICTURE.... */
+
+.family-picture1 {
+
+    width              : 24vw;
+    height             : 60vh;
+    background-color   : rgb(255, 251, 235);
+    position           : absolute;
+    top                : 130px;
+    right              : 160px;
+    clip-path          : circle(50% at 0 0);
+    transition         : all;
+    transition-duration: 2s;
+    -webkit-box-shadow : 0px 0px 106px 23px rgba(45, 255, 196, 0.41);
+    -moz-box-shadow    : 0px 0px 106px 23px rgba(45, 255, 196, 0.41);
+    box-shadow         : 0px 0px 106px 23px rgba(45, 255, 196, 0.41);
+
+}
+
+.family-picture1:hover {
+    clip-path: circle(100%)
+}
+
+#family-image1 {
+    width : 24vw;
+    height: 68vh;
+}
+
+
+/* ....HERO-PAGE-CONTENT-HUMANIZING.... */
+
+
+.vertical-line-upper {
+    background-color: rgb(153, 153, 153);
+    width           : 7vw;
+    height          : 1px;
+    top             : -64px;
+    left            : 3px;
+    position        : absolute;
+    z-index         : 100;
+
+}
+
+.hero-page-content-humanizing {
+
+    position  : absolute;
+    top       : 140px;
+    left      : 152px;
+    width     : 200px;
+    margin-top: 45px;
+
+}
+
+#human-insurance {
+    font-size    : 43px;
+    width        : 300px;
+    line-height  : 35px;
+    font-family  : "DM Serif Display", serif;
+    margin-bottom: 18px;
+    color        : rgb(255, 251, 235);
+
+}
+
+#get-your-life-insurance {
+
+    width      : 300px;
+    font-size  : 9px;
+    font-family: "Karla", sans-serif;
+    color      : rgb(253, 250, 241);
+    line-height: 14px;
+    font-weight: 300;
+}
+
+#life-insurance-button {
+    border          : 1.5px solid rgb(255, 251, 235);
+    background-color: hsl(256, 26%, 20%);
+    color           : rgb(255, 251, 235);
+    font-size       : 9px;
+    padding-right   : 12px;
+    padding-left    : 12px;
+    padding-bottom  : 6px;
+    padding-top     : 6px;
+    width           : 84px;
+    text-transform  : uppercase;
+    font-family     : "Karla", sans-serif;
+    margin-top      : 18px;
+    transition      : opacity 1.15s;
+
+}
+
+
+#life-insurance-button:hover {
+    background-color: rgb(255, 251, 235);
+    color           : hsl(270, 9%, 17%);
+    font-weight     : 800;
+    opacity         : 0.4;
+    box-shadow      : 2px 4p 4px darkgray;
+    border          : none;
+}
+
+
+/* SYNTAX... FOR THE BODY SECTION 2---AREA */
+
+.body-phase-2 {
+    background-color: rgb(255, 254, 252);
+    width           : 65vw;
+    height          : 120vh;
+
+}
+
+
+/* ....BODY SECTION 2.... */
+
+
+.vertical-line-lower {
+    background-color: rgb(153, 153, 153);
+    width           : 7vw;
+    height          : 1px;
+    top             : -64px;
+    left            : 3px;
+    z-index         : 100;
+}
+
+.we-are-different {
+    position     : absolute;
+    left         : 152px;
+    bottom       : -180px;
+    font-size    : 45px;
+    font-family  : "DM Serif Display", serif;
+    color        : hsl(270, 9%, 17%);
+    margin-bottom: 34px;
+    font-weight  : lighter;
+    opacity      : 0;
+    padding      : 0.5rem;
+    border       : 0.1rem solid rgb(246, 246, 246);
+    transition   : opacity 1.15s;
+
+
+}
+
+.we-are-different:hover {
+    opacity         : 1;
+    cursor          : pointer;
+    background-image: linear-gradient(purple, darkblue);
+    color           : whitesmoke;
+    padding         : 1.2em;
+    font-family     :
+        'Gochi Hand';
+    font-size                : 44px;
+    text-transform           : uppercase;
+    border-top-right-radius  : 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow               : 2px 4px 6px gray;
+    transition               : 1.18s;
+
+}
+
+
+
+.great-great {
+    position   : relative;
+    left       : 0;
+    bottom     : -500px;
+    display    : flex;
+    column-gap : 16px;
+    padding    : 4rem;
+    margin-left: 100px;
+    margin-top : -138px;
+    font-size  : 12px;
+    width      : 800px;
+    line-height: 16px;
+}
+
+.great-great div img:nth-of-type(1) {
+    width: 50px;
+}
+
+.great-great div p:nth-of-type(1) {
+    color        : brown;
+    font-size    : 18px;
+    margin-bottom: 12px;
+    margin-top   : 18px;
+    font-weight  : bold;
+
+}
+
+.great-great div p:nth-of-type(2) {
+    font-family: "Karla", sans-serif;
+    font-size  : 10px;
+    width      : 250px;
+}
+
+#snappy {
+    width: 210px;
+}
+
+
+/* ----BODY-MAIN-TWO--- */
+
+.body-main-two {
+    width : 720px;
+    height: 200px;
+    border: 1px solid (purple, hsl(256, 52%, 54%));
+    ;
+    perspective                 : 800px;
+    position                    : absolute;
+    left                        : 160px;
+    bottom                      : -644px;
+    /* -webkit-box-shadow       : 0px 0px 106px 23px rgba(45, 255, 196, 0.41);
+    -moz-box-shadow             : 0px 0px 106px 23px rgba(45, 255, 196, 0.41);
+    box-shadow                  : 0px 0px 106px 23px rgba(45, 255, 196, 0.41); */
+
+
+}
+
+.shape {
+    width          : 720px;
+    height         : 200px;
+    display        : flex;
+    justify-content: space-between;
+    background     : linear-gradient(purple, hsl(256, 26%, 20%));
+    ;
+    /* transform : rotateY(40deg);
+    transition: all 4s ease; */
+    height       : 20vh;
+    box-shadow   : 2px 4px 4px 2px lightgray;
+    border-radius: 1rem;
+}
+
+.shape:hover {
+    cursor    : pointer;
+    transition: all 4s ease;
+    transform : rotateY(360deg);
+    transition: all 4s ease;
+}
+
+#find-out {
+    color      : rgb(255, 251, 235);
+    font-family: "DM Serif Display", serif;
+    margin-left: 45px;
+    font-size  : 30px;
+    line-height: 29px;
+    text-align : left;
+    padding    : 3rem;
+    width      : 360px;
+    font-weight: bold;
+
+}
+
+#button-top {
+
+    width       : 110px;
+    padding     : 1rem;
+    margin-top  : 40px;
+    margin-right: 75px;
+    z-index     : 1;
+}
+
+#press-the-button {
+    background-color: hsl(256, 26%, 20%);
+    padding         : 8px 6px 8px 6px;
+    width           : 120px;
+    font-family     : "Karla", sans-serif;
+    color           : rgb(255, 251, 235);
+    transition      : color 1.15s;
+    cursor          : pointer;
+    border-color    : rgb(255, 254, 252);
+    text-transform  : uppercase;
+    font-size       : 12px;
+
+}
+
+#press-the-button:hover {
+    background-color: rgb(255, 254, 252);
+    color           : hsl(256, 26%, 20%);
+    font-weight     : 700;
+    border          : none;
+}
+
+#how-we-work {
+    margin-left: 20px;
+    width      : 268px;
+    position   : absolute;
+    top        : 0;
+    right      : 0;
+}
+
+
+/* ...FOOTER SECTION... */
+
+
+.footer1 {
+    width           : 100%;
+    height          : 45vh;
+    background-color: rgb(246, 246, 246);
+    position        : relative;
+
+}
+
+.footer-first {
+    width          : 100%;
+    height         : 45vh;
+    display        : flex;
+    justify-content: space-between;
+    padding        : 4rem;
+    padding-top    : 2rem;
+    position       : relative;
+
+
+}
+
+.footer-first-logo {
+    width      : 5rem;
+    margin-left: 88px;
+    z-index    : 2;
+    position   : absolute;
+    z-index    : 1;
+    gap        : 4px;
+}
+
+.footer-first-icons {
+    margin-right: 10.3rem;
+
+}
+
+#footer-pattern-image {
+    position: absolute;
+}
+
+.footer-first-icons img:nth-of-type(1),
+.footer-first-icons img:nth-of-type(2),
+.footer-first-icons img:nth-of-type(3),
+.footer-first-icons img:nth-of-type(4) {
+    width: 16px;
+}
+
+
+
+.footer-second {
+    position      : absolute;
+    display       : flex;
+    flex-direction: row;
+    top           : 80px;
+    bottom        : 0;
+    margin-left   : 150px;
+    gap           : 120px;
+}
+
+.footer-second div h3:nth-of-type(1),
+.footer-second div h3:nth-of-type(2),
+.footer-second div h3:nth-of-type(3),
+.footer-second div h3:nth-of-type(4) {
+
+    font-family   : "Karla", sans-serif;
+    margin-bottom : 18px;
+    margin-top    : 58px;
+    text-transform: uppercase;
+    font-size     : 12px;
+    color         : hsl(0, 0%, 62%);
+}
+
+.footer-second div p {
+    font-family   : "Karla", sans-serif;
+    line-height   : 30px;
+    font-size     : 10px;
+    /* position   : relative; */
+    font-weight   : 600;
+    text-transform: uppercase;
+}
+
+
+.hori-line {
+    background: linear-gradient(to left, purple, yellow);
+    width     : 42.5vw;
+    height    : 1px;
+    position  : absolute;
+    top       : 80px;
+    left      : 154px;
+    z-index   : 1;
+    border    : none;
+}
